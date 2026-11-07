@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1877F2" />
+      <stop offset="100%" stop-color="#0D56BA" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#grad)" />
+  <!-- Chat Bubble 1 (Main post) -->
+  <path d="M32 38 C32 32, 38 28, 46 28 L82 28 C90 28, 96 32, 96 38 L96 62 C96 68, 90 72, 82 72 L54 72 L40 84 L40 72 C35 72, 32 68, 32 62 Z" fill="#FFFFFF" opacity="0.95" />
+  <!-- Chat Lines Inside -->
+  <rect x="44" y="40" width="38" height="5" rx="2.5" fill="#1877F2" />
+  <rect x="44" y="50" width="26" height="5" rx="2.5" fill="#1877F2" opacity="0.7" />
+  <!-- Small Overlapping Comment Bubble (Scraped comment) -->
+  <circle cx="86" cy="84" r="22" fill="#10B981" />
+  <path d="M86 68 C77 68, 70 74, 70 82 C70 86, 72 89, 75 92 L73 98 L79 96 C81 97, 83 97, 85 97 C94 97, 101 90, 101 82 C101 74, 94 68, 86 68 Z" fill="#FFFFFF" />
+  <circle cx="80" cy="82" r="2" fill="#10B981" />
+  <circle cx="86" cy="82" r="2" fill="#10B981" />
+  <circle cx="92" cy="82" r="2" fill="#10B981" />
+</svg>

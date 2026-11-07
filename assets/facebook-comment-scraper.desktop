@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Facebook Comment Scraper
+GenericName=Comment Scraper
+Comment=Scrape public Facebook comments and reactions into CSV without installation
+Exec=facebook-comment-scraper-gui
+Icon=facebook-comment-scraper
+Terminal=false
+Categories=Network;Utility;DataVisualization;
+Keywords=facebook;scraper;comments;playwright;csv;
+StartupNotify=true
+StartupWMClass=FacebookCommentScraper

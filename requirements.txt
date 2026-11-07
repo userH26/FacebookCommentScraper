@@ -1,0 +1,4 @@
+playwright>=1.40.0
+pyinstaller>=6.0.0
+cython>=3.0.0
+setuptools>=65.0.0
