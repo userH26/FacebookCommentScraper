@@ -16,33 +16,9 @@ Standalone, **on-the-go executables with zero installation** for both major oper
    * Works with **Mozilla Firefox**, **Microsoft Edge**, **Google Chrome**, and **Chromium**.
    * In `auto` mode, it auto-detects whichever browser is present on the system.
    * Eliminates the need to download 150MB+ Playwright browser binaries on most machines.
-3. **Closed-Source Protection**:
-   * Proprietary Python code is compiled into native C machine code via Cython and packaged with `-OO` and symbol stripping.
-   * Standard Python decompilers cannot extract source code.
 
 ---
 
-## 🚀 How to Run
-
-### 1. Windows (`.exe`)
-1. Download `FacebookCommentScraper_GUI.exe`.
-2. Double-click it. The desktop application window opens immediately.
-
-### 2. Linux (`.AppImage`)
-1. Download `FacebookCommentScraper-x86_64.AppImage`.
-2. Make it executable:
-   * **GUI**: Right-click the file ➔ Properties ➔ Permissions ➔ Check "Allow executing file as program".
-   * **Terminal**:
-     ```bash
-     chmod +x FacebookCommentScraper-x86_64.AppImage
-     ```
-3. Double-click it (or run `./FacebookCommentScraper-x86_64.AppImage`).
-   * *Tip*: Pass `--cli` to run in terminal CLI mode:
-     ```bash
-     ./FacebookCommentScraper-x86_64.AppImage --cli "POST_URL"
-     ```
-
----
 
 ## 💻 Local Build Scripts
 
@@ -54,3 +30,23 @@ Standalone, **on-the-go executables with zero installation** for both major oper
   ```bash
   ./build_appimage.sh
   ```
+
+## 🚀 How to Run
+
+### 1. Windows (`.exe`)
+1. Double-click it. The desktop application window opens immediately.
+
+### 2. Linux (`.AppImage`)
+1. Make it executable:
+   * **GUI**: Right-click the file ➔ Properties ➔ Permissions ➔ Check "Allow executing file as program".
+   * **Terminal**:
+     ```bash
+     chmod +x FacebookCommentScraper-x86_64.AppImage
+     ```
+2. Double-click it (or run `./FacebookCommentScraper-x86_64.AppImage`).
+   * *Tip*: Pass `--cli` to run in terminal CLI mode:
+     ```bash
+     ./FacebookCommentScraper-x86_64.AppImage --cli "POST_URL"
+     ```
+
+---
