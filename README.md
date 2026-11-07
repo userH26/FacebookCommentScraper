@@ -22,19 +22,6 @@ Standalone, **on-the-go executables with zero installation** for both major oper
 
 ---
 
-## 📥 Where to Download (GitHub Releases)
-
-Compiled standalone files are automatically published to the **Releases** section:
-
-1. Go to your repository on **github.com**.
-2. Look at the right sidebar and click **Releases** (or go to `https://github.com/<YOUR_USER>/<REPO>/releases`).
-3. Under the latest release (e.g. `v2.4.1`), download the raw standalone files directly:
-   * 🪟 **`FacebookCommentScraper_GUI.exe`**
-   * ⌨️ **`FacebookCommentScraper_CLI.exe`**
-   * 🐧 **`FacebookCommentScraper-x86_64.AppImage`**
-
----
-
 ## 🚀 How to Run
 
 ### 1. Windows (`.exe`)
